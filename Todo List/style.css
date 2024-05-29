@@ -1,10 +1,10 @@
 :root{
-    --dark: #374151;
-    --darker: #1f2937;
-    --darkest: #111827;
+    --dark: black;
+    --darker: #181528;
+    --darkest: #181528;
     --gray: #6b7280;
     --lght: #eee;
-    --orange: #e96937;
+    --orange: #4C2952;
     --red: #9b3939c7;
 }
 
@@ -27,17 +27,23 @@ header{
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 header h1{
     font-size: 2.5rem;
     font-weight: 300;
     color: var(--orange);
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
+    margin-top: 1.5rem;
+
 }
 
 #new-task-form {
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 input, button{
@@ -83,6 +89,7 @@ main{
     max-width: 800;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 .task-list{
@@ -92,8 +99,11 @@ main{
 .task-list h2{
     font-size: 1.5rem;
     font-weight: 300;
-    color: var(--gray);
-    margin-bottom: 1rem;
+    color: #4C2952;
+    margin-bottom: 1.8rem;
+    margin-top: 2rem;
+
+    text-align: center;
 }
 
 #tasks .task{
@@ -151,3 +161,4 @@ main{
 .task .actions .delete{
     color: rgb(112, 46, 46);
 }
+
